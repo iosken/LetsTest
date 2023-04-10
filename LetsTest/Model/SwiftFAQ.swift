@@ -8,12 +8,10 @@
 import Foundation
 
 struct Secret {
-    let title: String
-    let scheme: String
+    let title: String //djhsfkjdhfkjdsh
+    let scheme: String // dfhskjfhdskjhfks
     let matherial: [String]
     let questions: [Question]
-    
-    
 }
 
 struct Question {
