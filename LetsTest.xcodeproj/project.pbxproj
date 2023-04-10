@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C352C21D29E3AA06007C763D /* SwiftFAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352C21C29E3AA06007C763D /* SwiftFAQ.swift */; };
 		C378B70129DFCAF500B2AC9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378B70029DFCAF500B2AC9F /* AppDelegate.swift */; };
 		C378B70329DFCAF500B2AC9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378B70229DFCAF500B2AC9F /* SceneDelegate.swift */; };
 		C378B70529DFCAF500B2AC9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378B70429DFCAF500B2AC9F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C352C21C29E3AA06007C763D /* SwiftFAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFAQ.swift; sourceTree = "<group>"; };
 		C378B6FD29DFCAF500B2AC9F /* LetsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C378B70029DFCAF500B2AC9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C378B70229DFCAF500B2AC9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		C352C21E29E3AA17007C763D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C352C21C29E3AA06007C763D /* SwiftFAQ.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C378B6F429DFCAF500B2AC9F = {
 			isa = PBXGroup;
 			children = (
@@ -91,9 +101,10 @@
 		C378B6FF29DFCAF500B2AC9F /* LetsTest */ = {
 			isa = PBXGroup;
 			children = (
+				C352C21E29E3AA17007C763D /* Model */,
 				C352C21829E317E1007C763D /* ViewControllers */,
-				C352C21A29E319FC007C763D /* Resources */,
 				C352C21929E319DA007C763D /* StoryBoards */,
+				C352C21A29E319FC007C763D /* Resources */,
 				C352C21B29E31F7A007C763D /* App */,
 			);
 			path = LetsTest;
@@ -172,6 +183,7 @@
 			files = (
 				C378B70529DFCAF500B2AC9F /* ViewController.swift in Sources */,
 				C378B70129DFCAF500B2AC9F /* AppDelegate.swift in Sources */,
+				C352C21D29E3AA06007C763D /* SwiftFAQ.swift in Sources */,
 				C378B70329DFCAF500B2AC9F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
